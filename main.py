@@ -20,3 +20,4 @@ lib.objects.pop()
 # Удаляет последний индекс в списке
 lib.print_objects()
 # help(lib)
+# print(dir(lib))
