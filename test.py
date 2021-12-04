@@ -8,7 +8,8 @@ z = summa(4, 5)
 def minus(z, u):
     return z - u
 
+g = minus(z, 3)
 
 print(z)
 
-print()
+print(g)
