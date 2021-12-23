@@ -2,7 +2,7 @@ import turtle as tur
 
 
 def star():
-    tur.color('red', 'yellow')
+    tur.color("red", "yellow")
     tur.speed(10)
     tur.begin_fill()
     for step in range(5):

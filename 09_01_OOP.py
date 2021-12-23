@@ -15,12 +15,11 @@ class Calculate:
 
 
 class Summa(Calculate):
-
     def show_paramets_summa(self):
-        print(f'Заданные параметры: {self.x} и {self.y}')
+        print(f"Заданные параметры: {self.x} и {self.y}")
 
     def count_summa(self):
-        print('Сумма значений равна:', self.x + self.y)
+        print("Сумма значений равна:", self.x + self.y)
 
 
 class Minus(Calculate):
@@ -29,10 +28,10 @@ class Minus(Calculate):
         self.z = z
 
     def show_paramets_minus(self):
-        print(f'Заданные параметры: {self.x}, {self.y} и {self.z}')
+        print(f"Заданные параметры: {self.x}, {self.y} и {self.z}")
 
     def count_minus(self):
-        print('Минус трех значений равна:', self.x - self.y - self.z)
+        print("Минус трех значений равна:", self.x - self.y - self.z)
 
 
 main()

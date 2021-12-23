@@ -1,14 +1,14 @@
-username = input('Как тебя зовут? ')
-userage = int(input(f'Сколько тебе лет, {username}? '))
-print(f'Привет, {username}. Тебе {userage} ', end='')
+username = input("Как тебя зовут? ")
+userage = int(input(f"Сколько тебе лет, {username}? "))
+print(f"Привет, {username}. Тебе {userage} ", end="")
 if userage % 10 == 1 and userage != 11:
-    print('год!')
+    print("год!")
 elif userage >= 5 and userage <= 20:
-    print('лет!')
+    print("лет!")
 elif userage % 10 >= 2 and userage % 10 <= 4:
-    print('года!')
+    print("года!")
 else:
-    print('лет!')
+    print("лет!")
 
 # x = 10
 # while True:

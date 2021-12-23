@@ -32,10 +32,10 @@
 # for name, surname in B:
 #     print(name, surname)
 
-City = {'Moscow': 34567, 'Dolgoprudny': 12345, 'Piter': 67890}
-City['Rostov'] = 45345
+City = {"Moscow": 34567, "Dolgoprudny": 12345, "Piter": 67890}
+City["Rostov"] = 45345
 for key in City:
     print(key, City[key])
 
 print(City)
-print(City['Moscow'])
+print(City["Moscow"])
