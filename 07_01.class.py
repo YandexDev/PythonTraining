@@ -9,8 +9,10 @@ class Student:
         print(f"Name: {self.name}, surname: {self.surname}!")
 
 
-Andrei = Student("Andrei", "Pervyi")
+andrei = Student("Andrei", "Pervyi")
 
-Andrei.show()
-
-print(dir(Student))
+andrei.show()
+# print(dir(Student))  # Выводит все модули класса
+# print(Student.__dict__)
+print(andrei.name)  # Выводит атрибут класса
+print(andrei.surname)  # Выводит атрибут класса
