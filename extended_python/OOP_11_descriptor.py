@@ -25,7 +25,7 @@ class Integer:
             raise TypeError("Координата должна быть числом")
 
     def __set_name__(self, owner, name):
-        self.name = '_' + name
+        self.name = "_" + name
 
     def __get__(self, instance, owner):
         return getattr(instance, self.name)
@@ -48,5 +48,5 @@ class Point3D:
 
 
 p = Point3D(1, 2, 3)
-p.__dict__['xr'] = 5
+p.__dict__["xr"] = 5
 print(p.xr, p.__dict__)

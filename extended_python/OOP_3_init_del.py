@@ -1,5 +1,5 @@
 class Point:
-    color = 'Red'
+    color = "Red"
     circle = 2
 
     def __init__(self, x, y):
@@ -10,7 +10,7 @@ class Point:
     def __del__(self):
         """Удаление экземпляра класса,
         если переменная pt будет переопределена"""
-        print('Удаление ' + str(self))
+        print("Удаление " + str(self))
 
     def set_coords(self, x, y):
         self.x = x

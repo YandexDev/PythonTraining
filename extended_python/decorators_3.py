@@ -15,9 +15,7 @@ def df_decorator(dx=0.01):
     def func_decorator(func):
         @wraps(func)
         def wrapper(x, *args, **kwargs):
-            res = (
-                func(x + dx, *args, **kwargs) - func(x, *args, **kwargs)
-            ) / dx
+            res = (func(x + dx, *args, **kwargs) - func(x, *args, **kwargs)) / dx
             return res
 
         # Можно не указывать, т.к. импортируем wraps

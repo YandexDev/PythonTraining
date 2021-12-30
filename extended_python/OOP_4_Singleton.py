@@ -22,20 +22,20 @@ class DataBase:
         self.port = port
 
     def connect(self):
-        print(f'Соединение с БД: {self.user}, {self.psw}, {self.port}')
+        print(f"Соединение с БД: {self.user}, {self.psw}, {self.port}")
 
     def close(self):
-        print('Закрытие соединения с БД')
+        print("Закрытие соединения с БД")
 
     def read(self):
-        print('Данные из БД')
+        print("Данные из БД")
 
     def write(self, data):
-        print(f'Запись в БД {data}')
+        print(f"Запись в БД {data}")
 
 
-db = DataBase('root', '1234', 80)
-db2 = DataBase('root2', '12345', 40)
+db = DataBase("root", "1234", 80)
+db2 = DataBase("root2", "12345", 40)
 # Второй объект не создается,
 # переменная db2 ссылается на тот же самый объект
 print(id(db))

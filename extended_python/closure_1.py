@@ -10,13 +10,13 @@ def say_name(name):
     """
 
     def say_goodbye():
-        print("Don't say me goodbye, " + name + '!')
+        print("Don't say me goodbye, " + name + "!")
 
     return say_goodbye
 
 
-f = say_name('Andrei')
+f = say_name("Andrei")
 #  При каждой новой переменной создается новое окружение
-f2 = say_name('Python')
+f2 = say_name("Python")
 f()
 f2()

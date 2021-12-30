@@ -30,9 +30,7 @@ class Clock:
 
     def __add__(self, other):
         if not isinstance(other, (int, Clock)):
-            raise ArithmeticError(
-                "Правый операнд должен быть целым числом или clock"
-            )
+            raise ArithmeticError("Правый операнд должен быть целым числом или clock")
 
         sc = other
         if isinstance(other, Clock):
@@ -47,9 +45,7 @@ class Clock:
     def __iadd__(self, other):
         """Если необходимо чтобы работала конструкция +="""
         if not isinstance(other, (int, Clock)):
-            raise ArithmeticError(
-                "Правый операнд должен быть целым числом или clock"
-            )
+            raise ArithmeticError("Правый операнд должен быть целым числом или clock")
         sc = other
         if isinstance(other, Clock):
             sc = other.seconds

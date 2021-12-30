@@ -21,7 +21,7 @@ class TestFibonacci(TestCase):
 
     def test_wrong_param_type(self):
         with self.assertRaises(TypeError):
-            fib('Hello')
+            fib("Hello")
         with self.assertRaises(TypeError):
             fib(2.5)
 
